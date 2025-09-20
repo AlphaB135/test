@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <Menu currentPage={page} setPage={setPage} />
+  <Menu currentPage={page} onChangePage={setPage} />
 
       <div className="app-body">
         {page === "home" && <Home />}
