@@ -1,9 +1,9 @@
 import PersonList from "./PersonList";
 
-function Employee({ employees }) {
+function Employee({ employeescom }) {
   return (
     <div className="right-panel">
-      <PersonList employees={employees} />
+      <PersonList employeeslist={employeescom} />
     </div>
   );
 }

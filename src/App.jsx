@@ -19,7 +19,7 @@ function App() {
 
       <div className="app-body">
         {page === "home" && <Home />}
-        {page === "employee" && <Employee employees={employees} />}
+        {page === "employee" && <Employee employeescom={employees} />}
       </div>
     </div>
   );
